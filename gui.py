@@ -105,9 +105,9 @@ class ConfigManager:
             'server': 'example.com:443',
             'listen': '127.0.0.1:30000',
             'token': '',
-            'ip': '',
-            'dns': '',
-            'ech': ''
+            'ip': 'saas.sin.fan',
+            'dns': 'dns.alidns.com/dns-query',
+            'ech': 'cloudflare-ech.com'
         }
         self.servers.append(default_server)
         self.current_server_id = default_server['id']
